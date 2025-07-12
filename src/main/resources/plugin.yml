@@ -1,0 +1,37 @@
+name: PaperEdu
+version: '1.0-SNAPSHOT'
+main: org.edu.paperEdu.PaperEduPlugins
+api-version: '1.21'
+
+commands:
+  difficulty:
+    description: 월드의 난이도를 변경합니다.
+    usage: /difficulty <peaceful|easy|normal|hard> [월드]
+    permission: paperedu.setworld
+
+  money:
+    description: 현재 잔액을 확인합니다
+    usage: /money
+    aliases: [bal, balance]
+
+  gamemod:
+    description: 모드를 변경합니다
+    usage: /gamemod <survival|creative|adventure|spectator>
+    permission: paperedu.setworld
+
+  time:
+    description: 게임 시간을 변경합니다
+    usage: |
+      /time set <시간|day|night|midnight|noon|sunrise|sunset> [월드]
+      /time add <시간> [월드]
+      /time query
+
+  shop:
+    description: 판매 상점을 엽니다.
+    usage: /shop
+
+  createshopnpc:
+    description: 상인 NPC를 생성합니다.
+    usage: /createshopnpc
+    permission: paperedu.createnpc
+    aliases: [ 상인생성 ]

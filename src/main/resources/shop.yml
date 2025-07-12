@@ -1,0 +1,19 @@
+items:
+  DIAMOND:
+    price: 250.0
+    display-name: '<aqua>다이아몬드</aqua>'
+    lore:
+      - '<gray>클릭하여 판매합니다.</gray>'
+      - '<yellow>가격: 250원</yellow>'
+  IRON_INGOT:
+    price: 30.0
+    display-name: '<white>철 주괴</white>'
+    lore:
+      - '<gray>클릭하여 판매합니다.</gray>'
+      - '<yellow>가격: 30원</yellow>'
+  COBBLESTONE:
+    price: 1.0
+    display-name: '<dark_gray>조약돌</dark_gray>'
+    lore:
+      - '<gray>클릭하여 판매합니다.</gray>'
+      - '<yellow>가격: 1원</yellow>'
